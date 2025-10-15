@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Training Diary - Java ATM Simulator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Daily Training Diary</h1>
+            <p>Java ATM Simulator Project - OOPSINFOSOLUTIONS, Chandigarh</p>
+            <p><strong>Trainee:</strong> Riya Sharma (CRN: 2315197, URN: 2302652) | <strong>Duration:</strong> June 20 - August 1, 2025</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#week1">Week 1</a></li>
+                <li><a href="#week2">Week 2</a></li>
+                <li><a href="#week3">Week 3</a></li>
+                <li><a href="#week4">Week 4</a></li>
+                <li><a href="#week5">Week 5</a></li>
+                <li><a href="#week6">Week 6</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="dashboard">
+            <h2>Training Overview</h2>
+            <div class="summary-cards">
+                <div class="card">
+                    <h3>Total Days</h3>
+                    <p class="number">30</p>
+                </div>
+                <div class="card">
+                    <h3>Weeks Completed</h3>
+                    <p class="number">6</p>
+                </div>
+                <div class="card">
+                    <h3>Technologies</h3>
+                    <p class="number">8+</p>
+                </div>
+                <div class="card">
+                    <h3>Projects</h3>
+                    <p class="number">1</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="weekly-progress">
+            <h2>Weekly Progress</h2>
+            
+            <!-- Week 1 -->
+            <div class="week" id="week1">
+                <h3>Week 1: Introduction to Java Programming</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(1)">
+                        <h4>Day 1</h4>
+                        <p>June 20, 2025</p>
+                        <p>Orientation & Java Basics</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(2)">
+                        <h4>Day 2</h4>
+                        <p>June 21, 2025</p>
+                        <p>Data Types & Control Structures</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(3)">
+                        <h4>Day 3</h4>
+                        <p>June 23, 2025</p>
+                        <p>Methods & Arrays</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(4)">
+                        <h4>Day 4</h4>
+                        <p>June 24, 2025</p>
+                        <p>OOP Basics</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(5)">
+                        <h4>Day 5</h4>
+                        <p>June 25, 2025</p>
+                        <p>Advanced OOP Concepts</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 2 -->
+            <div class="week" id="week2">
+                <h3>Week 2: Advanced Java Concepts</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(6)">
+                        <h4>Day 6</h4>
+                        <p>June 26, 2025</p>
+                        <p>Inheritance & Polymorphism</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(7)">
+                        <h4>Day 7</h4>
+                        <p>June 27, 2025</p>
+                        <p>Interfaces & Packages</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(8)">
+                        <h4>Day 8</h4>
+                        <p>June 28, 2025</p>
+                        <p>Exception Handling</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(9)">
+                        <h4>Day 9</h4>
+                        <p>June 30, 2025</p>
+                        <p>File Handling Basics</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(10)">
+                        <h4>Day 10</h4>
+                        <p>July 1, 2025</p>
+                        <p>Advanced File Operations</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 3 -->
+            <div class="week" id="week3">
+                <h3>Week 3: Project Design and Planning</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(11)">
+                        <h4>Day 11</h4>
+                        <p>July 2, 2025</p>
+                        <p>Requirements Analysis</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(12)">
+                        <h4>Day 12</h4>
+                        <p>July 3, 2025</p>
+                        <p>System Architecture Design</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(13)">
+                        <h4>Day 13</h4>
+                        <p>July 4, 2025</p>
+                        <p>Class Design & UML</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(14)">
+                        <h4>Day 14</h4>
+                        <p>July 5, 2025</p>
+                        <p>Database Design</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(15)">
+                        <h4>Day 15</h4>
+                        <p>July 6, 2025</p>
+                        <p>User Interface Design</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 4 -->
+            <div class="week" id="week4">
+                <h3>Week 4: Core Module Implementation</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(16)">
+                        <h4>Day 16</h4>
+                        <p>July 7, 2025</p>
+                        <p>Account Class Implementation</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(17)">
+                        <h4>Day 17</h4>
+                        <p>July 8, 2025</p>
+                        <p>FileDatabase Class</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(18)">
+                        <h4>Day 18</h4>
+                        <p>July 9, 2025</p>
+                        <p>Authentication Module</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(19)">
+                        <h4>Day 19</h4>
+                        <p>July 10, 2025</p>
+                        <p>Transaction Module</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(20)">
+                        <h4>Day 20</h4>
+                        <p>July 11, 2025</p>
+                        <p>User Interface</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 5 -->
+            <div class="week" id="week5">
+                <h3>Week 5: Integration and Testing</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(21)">
+                        <h4>Day 21</h4>
+                        <p>July 12, 2025</p>
+                        <p>System Integration</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(22)">
+                        <h4>Day 22</h4>
+                        <p>July 13, 2025</p>
+                        <p>Unit Testing</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(23)">
+                        <h4>Day 23</h4>
+                        <p>July 14, 2025</p>
+                        <p>Integration Testing</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(24)">
+                        <h4>Day 24</h4>
+                        <p>July 15, 2025</p>
+                        <p>System Testing</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(25)">
+                        <h4>Day 25</h4>
+                        <p>July 16, 2025</p>
+                        <p>Bug Fixing & Optimization</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 6 -->
+            <div class="week" id="week6">
+                <h3>Week 6: Documentation and Deployment</h3>
+                <div class="days-grid">
+                    <div class="day-card" onclick="navigateToDay(26)">
+                        <h4>Day 26</h4>
+                        <p>July 17, 2025</p>
+                        <p>Code Documentation</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(27)">
+                        <h4>Day 27</h4>
+                        <p>July 18, 2025</p>
+                        <p>Deployment Preparation</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(28)">
+                        <h4>Day 28</h4>
+                        <p>July 19, 2025</p>
+                        <p>Final Testing & Validation</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(29)">
+                        <h4>Day 29</h4>
+                        <p>July 31, 2025</p>
+                        <p>Presentation Preparation</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                    <div class="day-card" onclick="navigateToDay(30)">
+                        <h4>Day 30</h4>
+                        <p>August 1, 2025</p>
+                        <p>Final Review & Submission</p>
+                        <span class="status completed">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quick-links">
+            <h2>Quick Links</h2>
+            <div class="links-grid">
+                <a href="assets/documents/training-certificate.pdf" class="link-card" target="_blank">
+                    <h4>Training Certificate</h4>
+                    <p>View completion certificate</p>
+                </a>
+                <a href="assets/documents/final-report.pdf" class="link-card" target="_blank">
+                    <h4>Final Report</h4>
+                    <p>Complete training report</p>
+                </a>
+                <a href="https://github.com/riyasharma/atm-simulator" class="link-card" target="_blank">
+                    <h4>Project Repository</h4>
+                    <p>Java ATM Simulator code</p>
+                </a>
+                <a href="assets/documents/resume.pdf" class="link-card" target="_blank">
+                    <h4>Resume</h4>
+                    <p>Download my resume</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Riya Sharma - Guru Nanak Dev Engineering College, Ludhiana</p>
+            <p>CRN: 2315197 | URN: 2302652 | Computer Science and Engineering</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
